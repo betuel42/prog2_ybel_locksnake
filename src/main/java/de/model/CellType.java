@@ -1,4 +1,4 @@
-package de.hsbi.lockgame.model;
+package de.model;
 
 public enum CellType {
   EMPTY,

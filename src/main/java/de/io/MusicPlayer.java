@@ -1,4 +1,4 @@
-package de.hsbi.lockgame.io;
+package de.io;
 
 import java.io.IOException;
 import javax.sound.sampled.*;

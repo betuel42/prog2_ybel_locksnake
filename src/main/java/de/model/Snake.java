@@ -1,4 +1,4 @@
-package de.hsbi.lockgame.model;
+package de.model;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,7 +14,7 @@ public final class Snake {
   }
 
   public Position head() {
-    return body.getFirst();
+      return body.get(0);
   }
 
   public List<Position> body() {

@@ -1,6 +1,7 @@
-package de.hsbi.lockgame.ui.render;
+package de.ui.render;
 
-import de.hsbi.lockgame.logic.GameState;
+import de.GameState;
+import de.model.*;
 import java.awt.*;
 
 public class Java2DRenderer implements GameRenderer {

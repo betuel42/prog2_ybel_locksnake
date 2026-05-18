@@ -1,6 +1,8 @@
-package de.hsbi.lockgame.io;
+package de.io;
 
-import de.hsbi.lockgame.model.*;
+import de.model.*;
+import de.model.*;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -31,7 +33,7 @@ public final class LevelLoader {
     if (lines.isEmpty()) throw new IllegalArgumentException("level file empty");
 
     var height = lines.size();
-    var width = lines.getFirst().length();
+    var width = lines.get(0).length();
 
     var cells = new CellType[width][height];
     var pins = new ArrayList<Pin>();

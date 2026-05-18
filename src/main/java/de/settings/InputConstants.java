@@ -1,6 +1,6 @@
-package de.hsbi.lockgame.settings;
+package de.settings;
 
-import de.hsbi.lockgame.model.Direction;
+import de.model.Direction;
 import java.awt.event.KeyEvent;
 import java.util.List;
 import java.util.Map;

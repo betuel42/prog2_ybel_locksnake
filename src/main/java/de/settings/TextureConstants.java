@@ -1,4 +1,4 @@
-package de.hsbi.lockgame.settings;
+package de.settings;
 
 public final class TextureConstants {
   public static final String WALL_TEXTURE = "/textures/wall.png";

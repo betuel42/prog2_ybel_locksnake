@@ -1,7 +1,7 @@
-package de.hsbi.lockgame.ui.render;
+package de.ui.render;
 
-import de.hsbi.lockgame.logic.GameState;
-import de.hsbi.lockgame.settings.TextureConstants;
+import de.GameState;
+import de.settings.TextureConstants;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.IOException;

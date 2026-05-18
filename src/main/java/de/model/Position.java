@@ -1,4 +1,4 @@
-package de.hsbi.lockgame.model;
+package de.model;
 
 public final class Position {
   private final int x;

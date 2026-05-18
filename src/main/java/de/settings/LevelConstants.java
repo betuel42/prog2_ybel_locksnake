@@ -1,4 +1,4 @@
-package de.hsbi.lockgame.settings;
+package de.settings;
 
 import java.util.Map;
 
